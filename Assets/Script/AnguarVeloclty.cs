@@ -13,7 +13,6 @@ public class AnguarVeloclty : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         if (Keyboard.current.aKey.isPressed)
@@ -27,6 +26,7 @@ public class AnguarVeloclty : MonoBehaviour
             rb.angularVelocity = Vector3.zero; 
 
         }
+
 
     }
 }
